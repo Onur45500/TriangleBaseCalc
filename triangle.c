@@ -5,10 +5,17 @@
 
 int main()
 {
-	int a, b, c, result;
+	int b, h, result;
 	
 	printf("Base : \n");
-	scanf("%d", &a);
+	fflush(stdout);
+	scanf("%d", &b);
+	
+	printf("Height : \n");
+	fflush(stdout);
+	scanf("%d", &h);
+
+	return 0;		
 	
 }
 
